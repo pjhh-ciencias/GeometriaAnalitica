@@ -469,7 +469,17 @@ h1.number-title-ejercicio::after{
   content: " " counter(semanaCounter)"."counter(sectionCounter) ".";
 }
 
-
+h1.number-title-definicion{
+  font-size: 185%;
+  margin-top: -1.75%;
+  padding: 0.25%;
+  text-align: center;
+  /* font-weight: 800; */
+  /* font-family: "Muli"; */
+  font-family: 'Hina Mincho', serif;
+  /* font-size: 33px; */
+  color: rgb(3, 89, 165); 
+}
 
 /*/////////////// for body boxes  /////////////////////*/
 
@@ -552,17 +562,22 @@ h1.number-title-ejercicio::after{
 }
 
 .definicion-box{
-  background:  rgb( 255, 249, 205 );
-  border-radius: 25px;
-  padding: 20px;
-  border: 10px  solid rgba(229,180,255,0.5);
+  /* background:  rgb(218, 237, 245); */
+  background: rgb(252, 252, 244);
+  color: black;
+  border-radius: 20px;
+  padding: 5%;
+  border: 0px solid  rgb(42, 202, 255);
   margin: auto;
   margin-bottom: 50px;
   margin-top: 50px;
   font-size: 20px;
-  font-family:  "Lucida Console" Courier monospace;
-  width: 70%;
-  box-shadow: 10px 10px 15px  rgb( 112, 123, 124 );
+  text-align: justify;
+  /* font-size: 110%; */
+  /* font-weight: 600; */
+  /* justify-content: space-evenly; */
+  width: 80%;
+  box-shadow: 0px 0px 10px 0px  rgb(0, 187, 244);
 }
 
 
